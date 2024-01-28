@@ -1,0 +1,17 @@
+{
+  "name": "hide-X-cursor",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "description": "X（旧Twitter）の動画上でカーソルを非表示にする",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
