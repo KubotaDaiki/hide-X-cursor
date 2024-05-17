@@ -1,6 +1,6 @@
 {
   "name": "Hide X Cursor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 3,
   "icons": {
     "16": "icon.png",
@@ -10,7 +10,7 @@
   "description": "X（旧Twitter）の動画上で一定時間マウスを動かしていないとき、カーソルを非表示にします。",
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://x.com/*"],
       "js": ["content-script.js"]
     }
   ]
