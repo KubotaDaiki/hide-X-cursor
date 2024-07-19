@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 const manifest = defineManifest({
   name: "Hide X Cursor",
-  version: "0.1.1",
+  version: "1.0.0",
   manifest_version: 3,
   icons: {
     "16": "icons/icon.png",
