@@ -14,7 +14,7 @@ const manifest = defineManifest({
     "X（旧Twitter）の動画上で一定時間マウスを動かしていないとき、カーソルを非表示にします。",
   content_scripts: [
     {
-      matches: ["https://x.com/*"],
+      matches: ["https://x.com/*", "https://twitter.com/*"],
       js: ["src/content-script.ts"],
     },
   ],
