@@ -9,6 +9,10 @@ window.addEventListener("mousemove", function () {
   }, 2000);
 });
 
+/**
+ * 動画内のカーソル形状を変更する
+ * @param shape カーソル形状（[形状の参考](https://developer.mozilla.org/ja/docs/Web/CSS/cursor)）
+ */
 function changeCursorShape(shape: string) {
   const videoControlClass =
     "css-175oi2r r-1p0dtai r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-1loqt21";
